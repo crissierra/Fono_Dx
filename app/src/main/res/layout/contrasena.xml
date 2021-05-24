@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/fondo_intro"
+tools:context=".contrasena"
+android:orientation="vertical"
+tools:layout_editor_absoluteY="81dp">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:gravity="center"
+    android:textColor="@color/colorAccent"
+    android:textColorHighlight="@android:color/background_light"
+    android:textColorHint="@color/colorAccent"
+    android:textColorLink="@android:color/background_light"
+    android:orientation="vertical"
+    android:layout_weight="0.5" >
+
+    <ImageView
+        android:id="@+id/object"
+        android:layout_width="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:src="@drawable/logo4" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="0.4" >
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="386dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="Ingresa la clave de activación"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/linea1"
+            android:orientation="horizontal">
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="430dp"
+                android:layout_height="90dp"
+                android:background="?android:attr/colorControlHighlight"
+                android:gravity="center"
+                android:textColorHint="@color/colorAccent">
+
+                <EditText
+                    android:id="@+id/clave"
+                    android:layout_width="370dp"
+                    android:layout_height="71dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="33dp"
+                    android:gravity="center"
+                    android:hint="Contaseña"
+                    android:fontFamily="@font/poppins"
+                    android:inputType="textPassword"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHighlight="@android:color/background_light"
+                    android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+                    android:textColorLink="@android:color/background_light"
+                    android:textSize="24sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_weight="0.3"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/validar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/frame_vacio"
+        android:text="   Validar   " />
+
+
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>

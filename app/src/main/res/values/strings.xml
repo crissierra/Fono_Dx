@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Shaio Fono Dx</string>
+
+
+
+    <string name="privacidad">
+
+    "POLÍTICA DE PRIVACIDAD\n\n\n"
+
+    "La presente Política de Privacidad establece los términos en que ©EPSORD usa y protege la información"
+    "que es proporcionada por sus usuarios al momento de utilizar su applicación móvil. Esta aplicación está comprometida"
+    "con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información dentro del aplicativo,"
+    " lo hacemos asegurando que dicha información sólo se empleará de acuerdo con los términos"
+    "de este documento. Sin embargo, esta Política de Privacidad puede cambiar con el tiempo o ser actualizada,"
+    "por lo que le recomendamos y enfatizamos en revisar contínuamente esta política para asegurarse que está de acuerdo con dichos cambios.\n\n"
+
+    "Uso de la información:\n"
+
+    "©EPSORD no recopila información sensible del usuario por cuanto no la requiere, solamente se requerirá una contraseña inical de acceso a todo el contenido.\n "
+
+    "©EPSORD es una aplicación "offline", de manera que no requiere internet para recibir, enviar o compartir a datos con ninguna otra plataforma o empresa "
+    "para llevar a cabo sus objetivos educativos. Los datos de interacción de usuario "
+    "no se guarda ni en servidor alguno ni en el dispositivo, sino que se eliminan automáticamente. Es de tener en cuenta que la aplicacion sí utiliza algunos enlaces externos "
+    "hacia videos educativos en la plataforma Youtube y otros enlaces de consulta externa direccionados hacia la Política de Privacidad de la aplicaición alojada en la web.\n\n"
+
+    "La aplicación nunca enviará correos electrónicos a través de nuestra aplicación con ofertas comerciales, nuevos productos u otra información "
+    "publicitaria. Solamente podrá enviar mensajes emergentes al disposotivo móvil del usuario con contenido exclusivamente "
+    "educativo y/o académico.\n\n"
+
+    "©EPSORD está altamente comprometido con mantener la seguridad de la información, cumpliendo con los lineamientos legales actuales. "
+    "Usamos los sistemas más avanzados y los actualizamos constantemente para asegurarnos que no exista ningún acceso no autorizado.\n\n"
+
+    "Cookies:\n"
+    "La aplicación no hace uso de cookies de forma directa dentro de su entorno móvil. Sin embargo, aplicación puede utilizar enlaces a fuentes externas alojadas en "
+    "internet, que sí podrían contener cookies. Las cookies usadas en dichas plataformas externas no son responsabilidad de ©EPSORD.\n\n"
+
+    "Enlaces a Terceros:\n"
+    "Esta aplicación pudiera contener enlaces a  sitios web que pudieran ser de su interés. Una vez que usted de click en estos enlaces y abandone "
+    "nuestra aplicación, ya no tenemos control sobre el sitio al cual es redirigido y por lo tanto no somos responsables del manejo de la privacidad y "
+    "protección de datos que estos sitios externos ofrezcan. Dichos sitios se rigen bajo sus propias políticas de privacidad.\n\n"
+
+    "Esta aplicación no venderá, cederá ni distribuirá la información personal sin su consentimiento, salvo que sea requerido por una autoridad judicial competente.\n\n"
+
+    "©EPSORD se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.\n"
+
+
+   </string>
+
+
+</resources>

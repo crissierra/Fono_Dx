@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:background="@drawable/fondo_intro"
+  android:baselineAligned="true"
+  tools:context=".ConsultaPoliticasPrivacidad" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginTop="30dp"
+                android:background="?android:attr/colorControlHighlight"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="horizontal">
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/privacidad"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <RadioGroup
+                    android:layout_width="299dp"
+                    android:layout_height="35dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+
+                    <RadioButton
+                        android:id="@+id/acepto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Acepto Política de Privacidad"
+                        android:textColor="@android:color/white"
+                        android:buttonTint="@android:color/white" />
+
+
+
+                </RadioGroup>
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/continuar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="  Continuar  "
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:background="@drawable/frame_vacio"
+                    android:textAlignment="center"
+                    tools:text="CONTINUAR" />
+
+                <Button
+                    android:id="@+id/verweb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:background="@drawable/frame_vacio"
+                    android:text="   Política de privacidad Online   "
+                    android:textAlignment="center"
+                    tools:text="ver Política de privacidad en la web" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>

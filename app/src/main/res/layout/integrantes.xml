@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="@drawable/newfondo"
+tools:context=".integrantes">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pongaptt"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Créditos"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical">
+
+        <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="María Inés Mantilla Pastrana  "
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:ignore="NotSibling"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text= "Investigador Senior Minciencias. Doctor en educación. Magíster en enfermería. Specialista en educación con énfasis en evaluación educativa.\n"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                tools:ignore="NotSibling" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text= "C.C. 39751665\nmariainesmantilla@gmail.com\n+57 3008318712\n"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                tools:ignore="NotSibling" />
+
+
+
+                    <Button
+
+                        android:id="@+id/cv1"
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="5dp"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:background="@drawable/frame_vacio"
+                        android:text="CvLac"
+                        android:textSize="15sp"
+                        android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/linea2"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Doris Cerchiaro Fernández."
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="?android:attr/colorControlHighlight"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            tools:ignore="NotSibling"
+            tools:layout_editor_absoluteX="188dp"
+            tools:layout_editor_absoluteY="204dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text= "C.C. 49798003\nHurtado Via a Patillal, Valledupar, Cesar.\nTel. 5842472\nenfermeria@unicesar.edu.co"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="italic"
+                    android:textSize="15sp"
+                    tools:ignore="NotSibling" />
+
+
+
+                <Button
+
+                    android:id="@+id/cv2"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:gravity="center"
+                    android:foregroundGravity="center"
+                    android:background="@drawable/frame_vacio"
+                    android:text="CvLac"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/linea2"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Alexandra López Sevillano"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="?android:attr/colorControlHighlight"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    tools:ignore="NotSibling"
+                    tools:layout_editor_absoluteX="188dp"
+                    tools:layout_editor_absoluteY="204dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical" >
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text= "Investigador Senior MinCiencias.\n"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/background_light"
+                            android:textStyle="italic"
+                            android:textSize="15sp"
+                            tools:ignore="NotSibling" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text= "C.C. 52156500\n alelose@gmail.com\n+57 3649090\nCra. 32 #12 - 81, Bogotá\n"
+                            android:textAllCaps="false"
+                            android:textColor="@android:color/background_light"
+                            android:textStyle="italic"
+                            android:textSize="15sp"
+                            tools:ignore="NotSibling" />
+
+
+
+                        <Button
+
+                            android:id="@+id/cv3"
+                            android:layout_width="70dp"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="5dp"
+                            android:gravity="center"
+                            android:foregroundGravity="center"
+                            android:background="@drawable/frame_vacio"
+                            android:text="CvLac"
+                            android:textSize="15sp"
+                            android:textColor="@android:color/background_light" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/linea2"
+                        android:orientation="vertical">
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/linea2"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
