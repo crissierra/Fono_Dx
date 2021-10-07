@@ -76,3 +76,7 @@ public class SplashScreenPrincipal extends AppCompatActivity
     }
 }
 
+
+//1. Módulo de edición de sonido (Cortar y que no se solape la info)
+//2. Solo del médico podrá ver el id del paciente.
+//3. Roll de médico poner la opción para "hacer seguimiento" o no. Si hace seguimiento guardar el memoria.

@@ -64,9 +64,9 @@ public class Preview_Logica extends AppCompatActivity {
         // P A N T A L L A S
 
         final List<Preview_PreviewScreenItem> mList = new ArrayList<>();
-        mList.add(new Preview_PreviewScreenItem("Cuidados con el cordón umbilical","Ruta de atención integral y cuidados del ombligo del recién nacido.",R.drawable.splash11));
-        mList.add(new Preview_PreviewScreenItem("Educación a padres","Educación práctica direccionada a para padres con discapacidad auditiva, respecto del cuidado del recien nacido.",R.drawable.splash2));
-        mList.add(new Preview_PreviewScreenItem("Lenguaje de señas","Cuenta con transcrpción a lenguaje de señas colombianas.",R.drawable.splash3));
+        mList.add(new Preview_PreviewScreenItem("Info 1.\nProyecto Fono Dx","Sistema tecnológico para la prevención, diagnóstico y monitoreo de insuficiencia cardiaca secundaria a enfermedad valvular.",R.drawable.logoinsitucional));
+        mList.add(new Preview_PreviewScreenItem("Info 2.\nProyecto Fono Dx","Información adicional del proyecto.",R.drawable.logoinsitucional));
+        mList.add(new Preview_PreviewScreenItem("Info 3.\nProyecto Fono Dx","Beneficios que genera el proyecto a la comunidad.",R.drawable.logoinsitucional));
 
 
 

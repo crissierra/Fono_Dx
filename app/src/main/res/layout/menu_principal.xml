@@ -52,36 +52,6 @@ tools:context=".menu_principal">
     </LinearLayout>
 
     <Button
-        android:id="@+id/teoria"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/frame_vacio"
-        android:drawableStart="@drawable/info4"
-        android:drawableTint="@color/colorAccent"
-        android:text="información                       "
-        android:textColor="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/creditos"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/frame_vacio"
-        android:drawableStart="@drawable/creditos"
-        android:drawableTint="@color/colorAccent"
-        android:text="Créditos                        "
-        android:textColor="@color/colorAccent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
         android:id="@+id/spectrograma"
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -95,6 +65,57 @@ tools:context=".menu_principal">
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/informacion_proyecto"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/frame_vacio"
+        android:drawableStart="@drawable/creditos"
+        android:drawableTint="@color/colorAccent"
+        android:text="información                       "
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/crear_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/frame_vacio"
+        android:drawableStart="@drawable/creditos"
+        android:drawableTint="@color/colorAccent"
+        android:text="Crear usuario                        "
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/contactar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/frame_vacio"
+        android:drawableStart="@drawable/creditos"
+        android:drawableTint="@color/colorAccent"
+        android:text="soporte                        "
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
 
     <ImageView
         android:id="@+id/object"

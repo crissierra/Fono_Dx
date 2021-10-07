@@ -44,8 +44,8 @@
                                       {
 
                                           // TODO Auto-generated method stub
-                                          Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://sites.google.com/view/cepesorp/p%C3%A1gina-principal"));
-                                          startActivity(in);
+                                       /*   Intent in=new Intent(Intent.ACTION_VIEW, Uri.parse("https://sites.google.com/view/cepesorp/p%C3%A1gina-principal"));
+                                          startActivity(in);*/
 
                                       }
                                   }

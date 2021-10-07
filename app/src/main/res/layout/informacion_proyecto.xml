@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="@drawable/newfondo"
+tools:context=".integrantes">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pongaptt"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="FonoDx"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical">
+
+        <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fonendoscopio Electrónico  "
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="?android:attr/colorControlHighlight"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        tools:ignore="NotSibling"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="14sp"
+                android:text= "FonoDX es una herramienta compuesta por un dispositivo inalámbrico de adquisición de sonidos cardíacos y un sistema de análisis de información en desarrollo, que tendrá la capacidad de reconocer la presencia de patologías valvulares por medio de algoritmos de inteligencia artificial. Esta herramienta permitirá la evaluación inmediata de condiciones cardiovasculares relacionadas con sobrecarga de presión o de volumen, que pueden progresar al desarrollo de insuficiencia cardiaca. Al reconocer de manera temprana condiciones valvulares como estenosis mitral y aórtica e insuficiencia mitral y aórtica, que según el registro RECOLFACA de la Sociedad Colombiana de Cardiología son la tercera causa de insuficiencia cardiaca en Colombia, se pueden definir estrategias terapéuticas orientadas a reducir el deterioro de la función ventricular. FonoDX cuenta con características telemédicas, portables y de fácil uso,  que la hacen una herramienta susceptible a ser incorporada incluso en instituciones con infraestructura tecnológica reducida o ubicadas en regiones de difícil acceso;  su versatilidad permite que cualquier prestador de salud con un entrenamiento mínimo pueda utilizarla. Con este reto se busca optimizar la capacidad de tamizaje del algoritmo de análisis en desarrollo, mediante la incorporación de registros de audio de individuos con condiciones valvulares asociadas a insuficiencia cardiaca, que provengan de poblaciones con diversas características sociodemográficas del país. Integrar FonoDX en el plan de atención de salud, facilitará los procesos de diagnóstico temprano, prevención y monitoreo de pacientes con factores de riesgo o diagnóstico comprobado de insuficiencia cardiaca secundaria a disfunción valvular.
+.\n"
+                android:textColor="@android:color/background_light"
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text= "Fundación Clínica Shaio.\n Grupo de investigación."
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                tools:ignore="NotSibling" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/linea2"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>

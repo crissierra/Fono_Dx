@@ -19,7 +19,7 @@ public class menu_principal extends AppCompatActivity
     //private FirebaseAnalytics mFirebaseAnalytics;
 
     GridLayout mainGrid;
-    Button TEORIA, CREDITOS,SPECTROGRAMA;
+    Button INFO_PROYECTO,SPECTROGRAMA, CREAR_USUARIO, CONTACTAR;
 
 
     @Override
@@ -32,44 +32,54 @@ public class menu_principal extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_principal);
 
-        TEORIA =  findViewById(R.id.teoria);
-        CREDITOS =  findViewById(R.id.creditos);
+        INFO_PROYECTO =  findViewById(R.id.informacion_proyecto);
         SPECTROGRAMA =  findViewById(R.id.spectrograma);
+        CREAR_USUARIO =  findViewById(R.id.crear_usuario);
+        CONTACTAR =  findViewById(R.id.contactar);
 
-        TEORIA.setOnClickListener(new View.OnClickListener()
+        INFO_PROYECTO.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent intent=new Intent (getApplicationContext(), integrantes.class);
+                Intent intent=new Intent (getApplicationContext(), informacion_proyecto.class);
                 startActivity(intent);
             }
         });
 
-        CREDITOS.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent intent=new Intent (getApplicationContext(), integrantes.class);
-                startActivity(intent);
-            }
-        });
 
         SPECTROGRAMA.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Intent intent=new Intent (getApplicationContext(), integrantes.class);
+                Intent intent=new Intent (getApplicationContext(), Spectro_MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        CREAR_USUARIO.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent=new Intent (getApplicationContext(), CrearUsuario.class);
                 startActivity(intent);
             }
         });
 
+        CONTACTAR.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent=new Intent (getApplicationContext(), CrearUsuario.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    public void onResume(){
+    public void onResume()
+    {
         super.onResume();
-
     }
 }
